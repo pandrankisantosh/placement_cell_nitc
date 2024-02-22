@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div >
-        {/* <Navbr/> */}
+         <Navbr/> 
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/registration' element={<Registration />} />
